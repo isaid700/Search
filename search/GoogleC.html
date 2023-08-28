@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+<body>
+    <!-- This is the box with the logo in it -->
+    <div> 
+        <h1 class="logo"> <!-- I know this is tedious but I couldnt find an image online and so i did this. Found idea for this code on - https://www.w3docs.com/snippets/css/how-to-create-a-multicolor-text-in-html-and-css.html-->
+            <span style="color: blue;">G</span> 
+            <span style="color: red;"> o</span>
+            <span style="color: yellow;"> o</span>
+            <span style="color: blue;"> g</span>
+            <span style="color: green;"> l</span>
+            <span style="color: red;"> e</span>
+        </h1>
+    </div>
+    <!-- This is the box with the search bar in it -->
+    <div id="searchBarBox">
+        <form action="https://google.com/search">
+            <input class="searchBar" type="text" name="q">
+            <!-- This is the box with the search buttons in it -->
+            <div id="searchButBox">
+                <input class="searchButton" type="submit" value="Google Search">
+                <input class="searchButton" type="submit" value="I'm feeling lucky" name="btnI">
+            </div>
+        </form>
+    </div>
+    
+    <!-- The taskbar -->
+    <div class="taskbar">
+        <ul>
+          <li><a rel="Images Page" href="GoogleImagesCo.html">Images</a></li>
+          <li><a rel="Adv Search" href="GoogleAdv.html">Advanced Search</a></li>
+        </ul>
+      </div>
+
+</body>
+</html>
